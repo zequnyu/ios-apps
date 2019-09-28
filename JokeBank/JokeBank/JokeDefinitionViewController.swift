@@ -9,21 +9,15 @@
 import UIKit
 
 class JokeDefinitionViewController: UIViewController {
-    var joke = ""
+    var joke = Joke()
     
     @IBOutlet weak var jokeLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = joke
-        if joke == "Chicken" {
-            jokeLabel.text = "Q: Why did the chicken cross the road?\n\nA: To get to the other side."
-        }
-        
-        if joke == "Walk into a bar..." {
-            jokeLabel.text = "Q: 🤩?\n\nA: 😍."
-        }
+        title = joke.title
+        jokeLabel.text = joke.text
     }
     
 
