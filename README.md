@@ -2,3 +2,8 @@
 
 - Xylophone
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Xylophone](Xylophone/Xylophone/Assets.xcassets/AppIcon.appiconset/Icon-Small@2x.png)
+
+- EggTimer
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![EggTimer](EggTimer/EggTimer/Assets.xcassets/AppIcon.appiconset/60.png)
